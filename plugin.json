@@ -1,0 +1,6 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "redpine",
+  "version": "0.1.1",
+  "description": "Redpine Connect: licensed, non-public data for AI work in medicine, science, law, and finance, served over MCP."
+}
