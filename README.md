@@ -1,6 +1,24 @@
 # Redpine Connect for Antigravity and Gemini CLI
 
-Licensed, non-public data for AI work in medicine, science, law, and finance, served over MCP.
+Redpine searches licensed publisher collections and open-access research, as full text rather than abstracts. Every result is cited to its source, and publishers are paid when their content is used.
+
+Web search returns abstracts, paywalls, and citations that cannot be checked. Redpine returns the relevant chunk of the document.
+
+Redpine licenses full-text research directly from publishers and research institutions, and serves it to your agent over MCP alongside a large open-access corpus. One query searches both.
+
+**Provenance by default.** Every result carries its publisher, title, publication date, and a resolvable identifier such as a DOI. Licensed content and open-access content are labeled separately, so the two are never confused inside an answer.
+
+**You see the price first.** Any search can be previewed for free. The agent sees the title, source, and a snippet of every result, plus the exact cost to unlock them, then asks before spending anything. Unlock the three results that matter instead of the 30 that came back. The same results re-fetch free for seven days. Discovery, schema inspection, previews, and balance checks are always free.
+
+**Built for questions where being wrong is expensive.** Clinical decisions, systematic review, research engineering, and any analysis that has to survive a source check.
+
+An account can also hold data integrations beyond literature. The agent reads what that account is entitled to at runtime rather than assuming a fixed tool list.
+
+Compensation flows back to the rights holders. New accounts get free queries. Credits are bought on the Redpine dashboard, and the plugin never handles payment details: it shows the price and asks before anything is charged.
+
+Requires a Redpine account. Sign-in is OAuth on first use.
+
+## This repo
 
 One repo, two manifests: `plugin.json` and `mcp_config.json` make it an Antigravity plugin, `gemini-extension.json` makes it a Gemini CLI extension. Both share the same skill.
 

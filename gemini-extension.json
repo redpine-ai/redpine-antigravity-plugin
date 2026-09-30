@@ -1,7 +1,7 @@
 {
   "name": "redpine",
   "version": "0.1.1",
-  "description": "Redpine Connect: licensed, non-public data for AI work in medicine, science, law, and finance, served over MCP.",
+  "description": "Full-text licensed and open-access research, cited to its source. Publishers are paid per use.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "redpine": {
