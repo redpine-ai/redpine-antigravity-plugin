@@ -9,13 +9,13 @@ One repo, two manifests: `plugin.json` and `mcp_config.json` make it an Antigrav
 Antigravity CLI:
 
 ```
-agy plugin install https://github.com/redpine-ai/redpine-gemini-extension
+agy plugin install https://github.com/redpine-ai/redpine-antigravity-plugin
 ```
 
 Gemini CLI:
 
 ```
-gemini extensions install https://github.com/redpine-ai/redpine-gemini-extension
+gemini extensions install https://github.com/redpine-ai/redpine-antigravity-plugin
 ```
 
 then, inside Gemini CLI, `/mcp auth redpine`.
